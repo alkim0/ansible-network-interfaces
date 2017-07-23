@@ -19,7 +19,6 @@
     cache_valid_time: 86400
   when: network_interfaces
   with_items:
-  - vlan
   - ifenslave
   - bridge-utils
   - ifmetric
